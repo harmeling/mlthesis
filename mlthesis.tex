@@ -1,0 +1,180 @@
+\documentclass{mlthesis}
+% put your own "\usepackage" here:
+%\usepackage{graphicx}
+
+% uncomment the correct line
+\thesistype{BSc thesis}   
+\thesistype{MSc thesis}   
+\thesistype{PhD thesis}
+
+% put your name ant the title and the date of the thesis here:
+\author{No Name}
+\title{Cool thesis title}
+\date{1. February 2018}  
+
+\begin{document}
+
+% create cover page
+\maketitle
+\begin{abstract}
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+  erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+  sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+  et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+  takimata sanctus est Lorem ipsum dolor sit amet.
+\end{abstract}
+
+\begin{zusammenfassung}
+  Und das ganze noch einmal auf deutsch.    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+  erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+  sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+  dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+  et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+  takimata sanctus est Lorem ipsum dolor sit amet.
+\end{zusammenfassung}
+
+%%put more stuff on the cover page if wanted
+\begin{note}
+  This is for other informaiton that should appear on the cover page
+\end{note}
+
+\newpage
+
+\chapter{Chapters}
+
+New chapters start a new page.
+
+\chapter{How to write code/toolbox}
+
+Create a toolbox.  Then you can use that toolbox inside a Jupyter
+Notebook.
+
+\chapter{Trennungen}
+
+Many Hyphnations in Latex are wrong!  Please check them!
+
+\chapter{How to include code?}
+
+\chapter{How to write math?}
+
+See also Knuth, Mathematical writing.
+
+\chapter{Language, mistakes and dictionary}
+
+\begin{itemize}
+\item omit words like ``very'', oder ``sehr''.
+\item bitte keinen Nominalstil (kein Beamtendeutsch)
+\end{itemize}
+
+\section{English mistakes}
+\begin{center}
+  \begin{tabular}{|l|l|}
+    WRONG                       & CORRECT                     \\ \hline
+   %--------------------------------------------------------------------
+    2D                          &  two-dimensional            \\
+    Stochastic Gradient Descent & stochastic gradient descent \\
+    mixtures of gaussians       & mixtures of Gaussians 
+  \end{tabular}
+\end{center}
+
+\subsection{Compare to or with}
+
+\subsection{Which or that}
+Understand the difference between restrictive and unrestrictive
+clauses.  Note that only one of them requires a comma.
+
+\subsection{Usually}
+
+Usually, you put a comma after ``usually'' at the beginning
+of the sentence.
+
+\subsection{Capitalization}
+
+In headlines only the first word should be capitalized, not all of the
+words (or only the nouns).  Exceptions are ``Bayesian'', ``Gaussian'',
+..., i.e. words derived from names.
+
+Also note that we refer to Figure 1 but talk about figures, i.e. for a
+particular figure, e.g. Figure 1, we capitalize, but talking about
+some unspecified figure, we do not capitalize.
+
+\subsection{Equation number}
+
+Always put equation numbers, since even you might not refer to a
+particular equation, your reviewer might do it.
+
+\section{Deutsche Fehler}
+\begin{center}
+  \begin{tabular}{|l|l|}
+    FALSCH   & RICHTIG \\
+    \hline
+    dem selben    & demselben \\
+    Standart      & Standard  \\
+  \end{tabular}
+\end{center}
+
+\section{Dictionary English --- German}
+  
+\begin{center}
+  \begin{tabular}{|l|l|}
+    \hline 
+    english                            & deutsch                   \\
+    \hline
+    Gaussian distribution              & Gaussverteilung           \\
+    KL-divergence                      & KL-Divergenz              \\
+    convolution                        & Konvolution, Faltung      \\
+    cumulative density function (CDF)  & Verteilungsfunktion       \\
+    data point                         & Datenpunkt                \\
+    data set                           & Datenmenge                \\
+    decoder                            & Decoder                   \\
+    deconvolution                      & Dekonvolution             \\
+    deep neural net (DNN)              & tiefes neuronales Netz    \\
+    encoder                            & Encoder                   \\
+    epoch                              & Durchlauf                 \\
+    feature space                      & Merkmalsraum              \\
+    gradient descent                   & Gradientenabstieg         \\
+    input space                        & Eingaberaum               \\
+    latent space                       & latenter Raum             \\
+    learning rate                      & Lernrate                  \\
+    limit                              & Limes                     \\
+    lower bound                        & untere Schranke           \\
+    matrix                             & Matrix                    \\
+    moving average                     & gleitender Mittelwert     \\
+    neural net (DNN)                   & neuronales Netz           \\
+    noise                              & Rauschen                  \\
+    normal distribution                & Normalverteilung          \\
+    objective function                 & Zielfunktion              \\
+    preprocessing                      & Vorverarbeitung           \\
+    posterior distribution             & A-posteriori-Verteilung   \\
+    prior distribution                 & A-priori-Verteilung       \\
+    probability density function (PDF) & Wahrscheinlichkeitsdichte \\
+    signal                             & Signal                    \\
+    upper bound                        & obere Schranke            \\
+    vector                             & Vektor                    \\
+    weights                            & Gewichte  \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\section{Rechtschreibung in BSc-, MSc- und PhD-Arbeiten}
+
+\begin{itemize}
+\item oft falsche geschriebene Wörter:
+  \begin{center}
+    \begin{tabular}{|l|}
+      \hline
+      des Weiteren  \\
+      infolgedessen   \\
+      Gaussverteilung  \\\hline
+    \end{tabular}
+  \end{center}
+\item Kommaregeln mit Infinitivkonstruktionen
+\end{itemize}
+\end{document}
